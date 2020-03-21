@@ -22,7 +22,7 @@ from homeassistant.const import (
 
 import homeassistant.helpers.config_validation as cv
 
-from . import get_all_alarm, get_room_name_from_room_uuid, get_cat_name_from_cat_uuid
+from . import get_all_alarmclock, get_room_name_from_room_uuid, get_cat_name_from_cat_uuid
 
 CONF_UUID = "uuid"
 EVENT = "loxone_event"
