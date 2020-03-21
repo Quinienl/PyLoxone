@@ -160,6 +160,8 @@ def get_all_alarm(json_data):
 def get_all_dimmer(json_data):
     return get_all(json_data, 'Dimmer')
 
+def get_all_alarmclock(json_data):
+    return get_all(json_data, 'AlarmClock')
 
 def get_all(json_data, name):
     controls = []
